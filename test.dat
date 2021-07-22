@@ -1,0 +1,9 @@
+1 1 Hans 3 1 Rotterdam 2 2 date 0 3 Deceased
+1 1 Anna 2 1 Amsterdam 3 2 pwd 0 3 Deceased
+1 2 "date -R" 0 1 null 3 3 Deceased 2 1 Jelmer
+3 3 Deceased 2 1 Jelmer 1 2 "date -R" 0 1 null
+1 1 null 0 1 Helen 2 2 "ls -l | grep test.dat" 3 3 Hospital_admission
+2 1 Amsterdam 1 1 Anna 3 2 pwd 0 3 Hospital_admission
+2 1 Jelmer 3 3 Deceased 0 1 null 1 2 "date -R"
+0 1 Helen 1 1 null 2 2 "ls -l | grep test.dat" 3 3 Hospital_admission
+0 1 Helen 1 1 null 3 3 Hospital_admission 2 2 "ls -l | grep test.dat"
